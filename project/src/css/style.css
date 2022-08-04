@@ -1,0 +1,183 @@
+#header{
+    background-color: #fff;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#menu{
+   margin: 0px;
+   padding: 0px;
+}
+#menu ul img{
+    border-radius: 25px;
+    width:40px;
+    height: 40px;
+}
+#menu li{
+    list-style: none;
+    display: inline-block;
+}
+#menu li a{
+    color:black;
+    padding: 15px 20px;
+    display: block;
+}
+#menu li.active:after{
+    background:#feca57;
+    content:'';
+    display: block;
+    width: 80px;
+    height: 3px;
+    margin:0px auto;
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+#user img{
+border-radius: 25px;
+margin-top: 0px;
+width: 40px;
+height:40px
+}
+#user p{
+    margin-top: 5px;
+    padding-left: 5px;
+}
+ol, ul {
+    padding-left: 0rem;
+}
+#content{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #f5f6fa;
+}
+#icon i{
+    color: #feca57;
+}
+#experience{
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#seeall{
+
+}
+.span2{
+    float: right;
+}
+.services{
+    padding-right: 20px;;
+}
+.card-body h5 i{
+    color:red;
+    font-size: 15px;
+}
+#main{
+    margin-left:10px
+}
+#sidebar{
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+#sdiv1{
+    width: 8rem;
+    height:8rem;
+    background-color:#f5f6fa;
+    border-radius: 10px;
+}
+.p-3 {
+    padding-left: 0rem!important;
+    padding-top: 1rem;
+}
+#sdiv1 h3{
+    margin-left: 15px;
+    padding-top: 10px;
+}
+#sdiv1 p{
+    margin-top: 15px;
+    font-size: 16px;
+    text-align: center;
+}
+.span1 b{
+    padding-right:25px;
+}
+#mentor{
+    display:inline-block;
+}
+#mentor img{
+    border-radius: 10px;
+}
+#mentor2{
+    padding-left:5px;
+    font-size: 12px;
+}
+#mentor2 p{
+    padding-top: 3px;
+}
+#p1{
+    margin-top: -10px;
+}
+#menu span{
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+@media only screen and (max-width:768px){
+    #menu span{
+        display:block;
+    }
+    #menu li{
+        display: block;
+        text-align: center;
+    }
+    .discovery button{
+        display: none;
+    }
+    #menu ul img{
+        display: none;
+    }
+    .users img,p{
+        display: none;
+    }
+    #menu ul{
+        display: none;
+    }
+}
+@media(max-width:1400px)
+{
+    #sdiv1{
+        width:100px;
+        height: 100px;
+    }
+    #sdiv1 p{
+        font-size: 10px;
+    }
+}
+@media(max-width:1200px)
+{
+    #sdiv1{
+        margin-top: 20px;
+    }
+}
+@media(max-width:991px)
+{
+    .services{
+        text-align: center;
+        justify-items: center;
+        margin-left: 6em;
+    }
+    #sdiv1{
+       margin-left: 3rem;
+    }
+    .card{
+        margin-top: 20px;
+    }
+}
+@media(max-width:767)
+{
+    #main{
+        padding-left: 10px;
+    }
+}
